@@ -63,7 +63,7 @@ p {
 }
 .btn {
     background-color: #ffd429;
-    
+    color: black;
     font-family: 'Montserrat', sans-serif;
     padding: 16px 28px;
     display: block;
