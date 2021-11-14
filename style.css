@@ -1,0 +1,151 @@
+body { 
+    font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif;
+color: #201b2d;
+font-size: 15px;
+padding: 0;
+margin: 0;
+}
+
+div, p, input, button, form, span, a, ul, li {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    
+    
+}
+.container {
+    width: 1170px;
+    margin: 0 auto;
+    
+}
+.header {
+    
+    background: linear-gradient(100.17deg, #4EBEFE 0.36%, #378FD9 100%);
+    padding-top: 52px;
+    color: #fff;
+
+}
+.logo {
+
+}
+.wrapper {
+    display: flex;
+    padding-bottom: 90px;
+    justify-content: space-between;
+}
+
+.offer{
+
+}
+.title {
+    font-size: 37px;
+    margin-top: 115px;
+    width: 540px;
+    padding-right: 40px;
+}
+.title > span{
+    font-size: 59px;
+}
+.intro {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+    width: 455px;
+}
+p {
+    line-height: 1.6rem;
+}
+.btn {
+    background-color: #ffd429;
+    
+    font-family: 'Montserrat', sans-serif;
+    padding: 16px 28px;
+    display: block;
+    width: 220px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s ease;
+}
+.btn:hover{
+    background-color: #fab907;
+}
+.learn, .mail{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+.section-title{
+    font-size: 30px;
+    margin-bottom: 70px;
+}
+
+.wrapp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.wow{
+    width: 288px;
+    padding-top: 95px;
+    background: url('/img/icons8-time-machine-96\ 1.png') no-repeat top center;
+        
+}
+.wow-title{
+    font-size: 19px;
+    margin-bottom: 15px;
+    
+}
+.wow-text{
+    margin-top: 6px;
+    
+}
+.icon2 {
+    background: url('/img/icons8-beach-96\ 1.png') no-repeat top center;
+}
+.icon3 {
+    background: url('/img/icons8-launch-96\ 1.png') no-repeat top center;
+}
+
+.mail {
+    background-color: #ECF3F8;
+}
+
+.wr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.input{
+    width: 345px;
+height: 50px;
+border: 1px solid #bbbbbb;
+border-radius: 3px;
+padding: 0 20px;
+margin-bottom: 15px;
+font-family: 'Ubuntu', sans-serif;
+font-size: 15px;
+color: black;
+}
+.input:focus-visible{
+    outline: none;
+}
+button.btn{
+    width: 345px;
+    border: none;
+    cursor: pointer;
+}
+
+
+.footer{
+    background-color: #164D7A;
+    padding: 50px 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+}
